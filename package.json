@@ -1,0 +1,28 @@
+{
+  "name": "webpack-boilerplate-setup",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "dev": "webpack serve",
+    "watch": "webpack --watch",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JerJohnston/webpack-boilerplate-setup.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JerJohnston/webpack-boilerplate-setup/issues"
+  },
+  "homepage": "https://github.com/JerJohnston/webpack-boilerplate-setup#readme",
+  "devDependencies": {
+    "webpack": "^5.64.3",
+    "webpack-cli": "^4.9.1",
+    "webpack-dev-server": "^4.5.0"
+  }
+}
