@@ -22,7 +22,7 @@ module.exports =
                     "sass-loader"]
             },
             {
-                test: /\.js$/,
+                test: /\.jsx?$/,
                 exclude: /node_modules/,
                 use: 
                 {
@@ -37,6 +37,11 @@ module.exports =
     [
         new MiniCssExtractPlugin()
     ],
+
+    resolve: 
+    {
+        extensions: [".js", ".jsx"]
+    },
 
     devtool: "source-map",
     devServer:
